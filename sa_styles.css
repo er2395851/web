@@ -1,0 +1,50 @@
+/*
+   Sunny Acres Style Sheet
+   Author: Edmar Ramos
+   Date:   4/21/2013
+*/
+
+@font-face {
+   font-family: 'NobileRegular';
+   src: url('nobile-webfont.eot');
+   src: local('?'), 
+        url('nobile-webfont.woff') format('woff'), 
+        url('nobile-webfont.ttf') format('truetype'), 
+        url('nobile-webfont.svg#webfontsKo9tqe9') format('svg');
+}
+
+
+/* Body styles */
+body {
+   background-color: white;
+   font-family: NobileRegular,Verdana, Geneva, sans-serif;
+   line-height: 1.4em;
+      }
+
+/* Heading styles */
+
+section h1 {
+   background-color: rgb(125, 186, 240);
+   color: white;
+   font-size: 1.7em;
+   letter-spacing: 0.4em;
+   line-height: 1.8em;
+   text-indent: 1em;
+}
+
+h2 {
+   background-color: rgb(225,225,225);
+  
+   letter-spacing: 0.4em;
+   line-height: 1.8em;
+   text-indent: 1em;
+    }
+
+/* Navigation list styles */
+   nav ul {
+   background-color: rgb(125, 186, 240);
+   line-height: 3.5em;
+   list-style-type: none;
+   padding-left: 0em;
+   }
+
