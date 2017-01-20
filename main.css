@@ -1,0 +1,7 @@
+/**
+id can change
+tuna is an id
+*/
+#tuna {color: red;}
+
+p[name = "ed"]{color: blue;}
